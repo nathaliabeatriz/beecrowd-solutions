@@ -1,7 +1,7 @@
 <h1 align="center">Solução de exercícios em C++ 🔢</h1>
 
 <p align="center">
-Repositório criado para guardar e compartilhar minhas soluções de exercícios similares aos de maratonas e olimpíadas de programação, judando assim a me guiar nos estudos. Os problemas estarão separados por assunto.<br/>
+Repositório criado para guardar e compartilhar minhas soluções de exercícios similares aos de maratonas e olimpíadas de programação, ajudando assim a me guiar nos estudos. Os problemas estarão separados por assunto.<br/>
 </p>
 
 <br>
