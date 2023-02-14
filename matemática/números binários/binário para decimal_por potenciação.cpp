@@ -8,7 +8,7 @@ int charParaInt(char c){
 	return c - '0';
 }
 
-int resto(string bin){
+int binarioParaDecimal(string bin){
 	int potencia = 0, dec = 0;
 	for(int i=bin.size()-1; i>=0; i--){
 		dec = dec + (charParaInt(bin[i])*pow(2, potencia));
@@ -21,5 +21,7 @@ int main(){
 	string binario;
 	cin >> binario;
 	
-	cout << resto(binario) << endl;
+	cout << binarioParaDecimal(binario) << endl;
+	
+	return 0;
 }
