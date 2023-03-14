@@ -18,3 +18,5 @@ int main(){
 	else cout << "N" << endl;
 	return 0;
 }
+
+//link do exercício: https://neps.academy/br/course/matematica-computacional-(codcad)/lesson/selos
