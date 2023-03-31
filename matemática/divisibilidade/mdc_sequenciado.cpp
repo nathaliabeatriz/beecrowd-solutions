@@ -28,3 +28,5 @@ int main(){
 	
 	return 0;
 }
+
+//link do exercicio: https://neps.academy/br/course/matematica-computacional-(codcad)/lesson/mdc-sequenciado
