@@ -4,7 +4,7 @@ using namespace std;
 //faz o mdc de dois números
 int mdc(int a, int b){
 	if(b==0) return a;
-	mdc(b, a%b);
+	return mdc(b, a%b);
 }
 
 //faz o mmc de dois números
