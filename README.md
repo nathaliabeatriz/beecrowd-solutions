@@ -12,6 +12,7 @@ Os exercícios encontrados aqui são das seguintes plataformas:
 
 - Beecrowd
 - Neps Academy
+- Sphere Online Judge
 
 ---
 ## 👩🏻 Meu perfil
