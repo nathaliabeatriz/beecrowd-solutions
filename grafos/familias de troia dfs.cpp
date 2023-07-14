@@ -1,3 +1,5 @@
+//exercício resolvido utilizando dfs
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 50100
