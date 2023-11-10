@@ -4,15 +4,12 @@
 using namespace std;
 #define MAX 50100
 
-int elemento_final, total_familias=0;
+int total_familias=0;
 vector<int>elemento[MAX];
 bool elemento_visitado[MAX];
 
 void dfs(int vert){
     if(elemento_visitado[vert])return;
-    if(elemento_final == vert){
-        total_familias++;
-    }
     elemento_visitado[vert] = true;
     for(auto vizinho: elemento[vert]){
         dfs(vizinho);
@@ -35,8 +32,9 @@ int main(){
     }
 
     for(int i=1; i<=n; i++){
-        elemento_final = i; //para calcular o número de famílias
+        if(elemento_visitado[i]) continue;
         dfs(i);
+        total_familias++;
     }
 
     cout << total_familias << endl;
